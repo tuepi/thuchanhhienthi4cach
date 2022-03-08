@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hiển thi Hello World</title>
+</head>
+<body>
+<button type="button" onclick="hienThi()">Ấn vào đây!</button>
+<button type="button" onclick="hienThi2()">click</button>
+<h1 id="ht"> </h1>
+<button type="button" onclick="hienThi3()">Nhấp vào</button>
+<button type="button" onclick="hienThi4()">Click me! Sau đó nhấn F12</button>
+<script>
+    function hienThi() {
+        alert("Hello");
+    }
+    function hienThi2() {
+        document.getElementById("ht").innerHTML="hello";
+    }
+    function hienThi3() {
+        document.write("Hello World");
+    }
+    function hienThi4() {
+        console.log("Xin chào!");
+    }
+</script>
+</body>
+</html>
